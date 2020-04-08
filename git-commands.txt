@@ -1,0 +1,14 @@
+
+git status
+//checking the working tree of current git repo
+
+git add file
+//stage changes to file (before commit)
+
+git add -A
+//stage 
+
+git log
+//check the history of git commits
+
+git diff 
