@@ -25,3 +25,11 @@ git reset --hard
 
 git reset --soft HEAD~n
 //reverse/reset the commit after HEAD~nth to the staging working tree
+
+git clean -n
+//check what would do before actual cleaning is done on the working copy/staging
+
+git clean -f
+//perform the cleaning of the working copy
+
+creat .gitignore file and tell git to ignore the changes to certain dir or files
