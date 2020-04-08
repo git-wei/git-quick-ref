@@ -16,3 +16,12 @@ git log
 
 git diff HEAD~n..
 //check the difference between HEAD-nth commit with HEAD commit
+
+git checkout file
+//check out/reverse the staging/change of file
+
+git reset --hard
+//check out/reverse/reset the staging/changes to the working tree
+
+git reset --soft HEAD~n
+//reverse/reset the commit after HEAD~nth to the staging working tree
