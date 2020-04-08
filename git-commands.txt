@@ -5,10 +5,14 @@ git status
 git add file
 //stage changes to file (before commit)
 
+git add -u
+//stage updated (modify or deletion, not creation) files
+
 git add -A
-//stage 
+//stage all the files in the current repo
 
 git log
 //check the history of git commits
 
-git diff 
+git diff HEAD~n..
+//check the difference between HEAD-nth commit with HEAD commit
