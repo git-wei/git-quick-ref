@@ -1,0 +1,18 @@
+#command lines in git to show the statistics
+
+git log --oneline
+//concise presentation of git commits log
+
+git log --oneline | wc -l
+//word count by line, count the number of commits
+
+git log --oneline --graph
+//show the merge/branch structure of the commits history
+
+git shortlog
+//show the commit history with message by users
+
+git shortlog -sne
+//show the summary/counts of commit numerically (decreasing order) with user email address
+
+
