@@ -41,3 +41,6 @@ key to github first
 
 8. git fetch + git merge == git pull
 //fetch the repo from origin/master, then merge with local repo master
+
+9. git clone git@.../https...
+//clone a remote repo to make a local repo
