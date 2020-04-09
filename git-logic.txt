@@ -1,0 +1,20 @@
+#Understanding of how git works
+1. Four data types:
+	commit: controls versions
+	tags: notes/tags 
+	blob: data, content
+	tree: functions as directories
+LinkedList + HashMap
+
+2. Security Hash Algorithms (SHA code is the key)
+
+3. Filesystem with version control
+
+4. .git directory
+   tree .git:
+   there are config file (for this repo), and object directory (storing key-value pairs)
+
+5. git cat-file -t tag/sha
+   git cat-file -s tag/sha
+   git cat-file -p tag/sha
+//check the type, size, and print the object assocaited with the tag/sha

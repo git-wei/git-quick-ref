@@ -15,4 +15,10 @@ git shortlog
 git shortlog -sne
 //show the summary/counts of commit numerically (decreasing order) with user email address
 
+git show HEAD~n
+//show the HEAD~nth commit information
 
+git log --graph --oneline --all --decorate
+//show the merge/branch graph structure of all the branches with color decoration
+git config --global alias.logall "log --all --oneline --graph --decorate"
+//create alias globally (for user) to use logall for ""

@@ -1,0 +1,32 @@
+//Record the remote, branching, merging functions of Git
+
+1. Protocols allowed on git
+	Protocols	Port
+	https		80/443
+	ssh		22
+	git		9418
+	file (local)	n/a
+
+2. git branch
+//display local branches of current repo
+git branch -r
+//display remote branches of repo
+
+3. git branch branchname
+//create a new branch with branchname, pointing to the current HEAD commit
+   git checkout branchname
+//switch to branch with branchname, change the HEAD pointer to this branch
+
+4. git merge branchname
+//merge the branchname with current branch, the merged commit will have two parents
+
+5. git rebase branchname
+//rebase the current branch to the branchname
+
+6. git tag
+//display the tags in the repo
+   git tag tagname
+//tag without annotation
+   git tag -a tagname
+
+
