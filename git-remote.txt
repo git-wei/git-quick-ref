@@ -36,5 +36,8 @@ Note: tags are like branches, but they do not move
 7. git remote add origin https... (https protocol) or git@... (ssh protocol)
    git push -u origin master
 //before add the origin, you need to creat a new repo on github and follow the instruction there to get the repo's address
-//if this is the first time you add the local repo (from your computer), you will need to add your computer's public ssh key to github first
+//if this is the first time you add the local repo (from your computer), you will need to add your computer's public ssh 
+key to github first
 
+8. git fetch + git merge == git pull
+//fetch the repo from origin/master, then merge with local repo master
