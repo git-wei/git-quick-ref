@@ -27,6 +27,10 @@ git branch -r
 //display the tags in the repo
    git tag tagname
 //tag without annotation
-   git tag -a tagname
+   git tag -a tagname -m message
+//tag with annotation and message is needed
+   git tag -s 
+//tag with signiture
+Note: tags are like branches, but they do not move
 
 
